@@ -1,5 +1,9 @@
 #!/bin/bash
+#include <stdio.h>
 
-test="HelloWorld!!"
-echo"${test}"
+int main(void){
+	printf("Hello world!! \n");
+	printf("My name is jieun Ahn \n");
+	return 0;
+}
 
